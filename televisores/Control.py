@@ -1,4 +1,4 @@
-class Control :
+class Control:
     def __init__(self):
         self._tv = None
 
@@ -34,10 +34,6 @@ class Control :
     def setCanal(self, canal):
         if self._tv:
             self._tv.setCanal(canal)
-
-    def setVolumen(self, volumen):
-        if self._tv:
-            self._tv.setVolumen(volumen)
 
     def getTv(self):
         return self._tv
